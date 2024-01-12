@@ -149,3 +149,16 @@ const res2 = {
 res1.caigi &&= "An";
 res2.caigi &&= "An";
 console.log(res1, " ", res2);
+
+//112
+
+const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
+for (const item of menu) {
+  console.log(item);
+}
+
+for (const [i, es] of menu.entries()) {
+  console.log(`${i + 1}: ${es}`);
+}
+
+console.log([...menu.entries()]);
