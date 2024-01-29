@@ -11,3 +11,6 @@ checkmid("23E");
 console.log(new String("Hahahhaha"));
 
 console.log(typeof new String("haha"));
+
+const email = "voduyphuong13@gmail.com";
+const loginemail = "Voduyphuong13@gmail.com";
