@@ -32,3 +32,18 @@ for (const [phut, sukien] of gameEvents) {
   const hiep = phut <= 45 ? "Hiệp 1" : "Hiệp 2";
   console.log(`${hiep} phút thứ: ${phut}-${sukien}`);
 }
+
+//2.2.
+document.body.append(document.createElement("textarea"));
+document.body.append(document.createElement("button"));
+
+document.querySelector("button").addEventListener("click", function () {
+  const text = document.querySelector("textarea").value;
+  const xuongdong = text.split("\n");
+  console.log(xuongdong);
+  for (const [i, value] of xuongdong.entries()) {
+    const [first, second] = value.toLocaleLowerCase().trim().split("_");
+    const kq = `${first}${second.replace(second[0], second[0].toUpperCase())}`;
+    console.log(`${kq.padEnd(20)}${"*".repeat(i + 1)}`);
+  }
+});
