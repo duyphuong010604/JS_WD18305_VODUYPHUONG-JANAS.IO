@@ -1,29 +1,154 @@
 {
-    "posts": [
-        {
-            "id": "1",
-            "title": "a title",
-            "views": 100
-        },
-        {
-            "id": "2",
-            "title": "another title",
-            "views": 200
-        }
-    ],
-    "comments": [
-        {
-            "id": "1",
-            "text": "a comment about post 1",
-            "postId": "1"
-        },
-        {
-            "id": "2",
-            "text": "another comment about post 1",
-            "postId": "1"
-        }
-    ],
-    "profile": {
-        "name": "typicode"
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "Fred",
+      "author": "Flintstone",
+      "id": 2
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 3
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 4
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 3
+    },
+    {
+      "title": "Đây là bài viết số ",
+      "author": "Tính",
+      "id": 5
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 6
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 7
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 8
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 9
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 10
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 11
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 12
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 13
+    },
+    {
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính",
+      "id": 14
+    },
+    {
+      "id": "1504",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    },
+    {
+      "id": "b6b6",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    },
+    {
+      "id": "1db8",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    },
+    {
+      "id": "fe4d",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    },
+    {
+      "id": "edc7",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    },
+    {
+      "id": "729e",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    },
+    {
+      "id": "d2db",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    },
+    {
+      "id": "d2e8",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    },
+    {
+      "id": "5954",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
     }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": "7b8b",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    },
+    {
+      "id": "9f64",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    },
+    {
+      "id": "e2c7",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    },
+    {
+      "id": "42fe",
+      "title": "bài viết siêu hay 10 điểm",
+      "author": "Tính"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
