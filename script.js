@@ -88,41 +88,41 @@ class Student extends User {
 // teacher.feedback(4);
 // teacher.getGPA();
 
-// axios({
-//   method: "get",
-//   url: "http://localhost:3000/comments",
-// }).then(function (response) {
-//   let data = response.data;
-//   console.log(response.data);
-//   // let html = "<ul>";
-//   // data.forEach((element) => {
-//   //   html += `<li>${element.body}</li>`;
-//   // });
-//   // html += "</ul>";
-//   // document.writeln(html);
-// });
-
-// axios({
-//   method: "post",
-//   url: "http://localhost:3000/comments",
-//   data: {
-//     title: "bài viết siêu hay 10 điểm",
-//     author: "Tính",
-//   },
-// }).then(function (response) {
-//   console.log(response);
-// });
+axios({
+  method: "get",
+  url: "http://localhost:3000/comments",
+}).then(function (response) {
+  let data = response.data;
+  console.log(response.data);
+  // let html = "<ul>";
+  // data.forEach((element) => {
+  //   html += `<li>${element.body}</li>`;
+  // });
+  // html += "</ul>";
+  // document.writeln(html);
+});
 
 axios({
-  method: "put",
-  url: "https://localhost:3000/posts/5",
+  method: "post",
+  url: "http://localhost:3000/comments",
   data: {
-    title: "Đây là bài viết số 434334343",
+    title: "bài viết siêu hay 10 điểm",
     author: "Tính",
   },
 }).then(function (response) {
   console.log(response);
 });
+
+// axios({
+//   method: "put",
+//   url: "https://localhost:3000/posts/5",
+//   data: {
+//     title: "Đây là bài viết số 434334343",
+//     author: "Tính",
+//   },
+// }).then(function (response) {
+//   console.log(response);
+// });
 
 // axios({
 //     method: "get",
