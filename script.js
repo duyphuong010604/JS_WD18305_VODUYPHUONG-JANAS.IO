@@ -38,27 +38,27 @@
 
 // student.login();
 
-class User {
-  constructor(name, password, email) {
-    this.name = name;
-    this.password = password;
-    this.email = email;
-  }
-  logout() {
-    console.log("Log out successfully");
-  }
-}
+// class User {
+//   constructor(name, password, email) {
+//     this.name = name;
+//     this.password = password;
+//     this.email = email;
+//   }
+//   logout() {
+//     console.log("Log out successfully");
+//   }
+// }
 
-class Student extends User {
-  constructor(name, password, email, phone) {
-    super(name, password, email);
-    this.phone = phone;
-  }
+// class Student extends User {
+//   constructor(name, password, email, phone) {
+//     super(name, password, email);
+//     this.phone = phone;
+//   }
 
-  learning() {
-    console.log(`${this.name} is learning!!!`);
-  }
-}
+//   learning() {
+//     console.log(`${this.name} is learning!!!`);
+//   }
+// }
 
 // const student = new Student('Tính', '12345', 'tinhpv10@fpt.edu.vn');
 
@@ -88,30 +88,30 @@ class Student extends User {
 // teacher.feedback(4);
 // teacher.getGPA();
 
-axios({
-  method: "get",
-  url: "http://localhost:3000/comments",
-}).then(function (response) {
-  let data = response.data;
-  console.log(response.data);
-  // let html = "<ul>";
-  // data.forEach((element) => {
-  //   html += `<li>${element.body}</li>`;
-  // });
-  // html += "</ul>";
-  // document.writeln(html);
-});
+// axios({
+//   method: "get",
+//   url: "http://localhost:3000/comments",
+// }).then(function (response) {
+//   let data = response.data;
+//   console.log(response.data);
+//   // let html = "<ul>";
+//   // data.forEach((element) => {
+//   //   html += `<li>${element.body}</li>`;
+//   // });
+//   // html += "</ul>";
+//   // document.writeln(html);
+// });
 
-axios({
-  method: "post",
-  url: "http://localhost:3000/comments",
-  data: {
-    title: "bài viết siêu hay 10 điểm",
-    author: "Tính",
-  },
-}).then(function (response) {
-  console.log(response);
-});
+// axios({
+//   method: "post",
+//   url: "http://localhost:3000/comments",
+//   data: {
+//     title: "bài viết siêu hay 10 điểm",
+//     author: "Tính",
+//   },
+// }).then(function (response) {
+//   console.log(response);
+// });
 
 // axios({
 //   method: "put",
